@@ -109,3 +109,12 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# ALIASES
+# #Git aliases
+alias git_ssh_start='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/git_keys/rogbox'
+alias gadd='git add .'
+
+# nvim aliases
+alias -g n="nvim"
