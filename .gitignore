@@ -6,3 +6,9 @@
 !.p10krc
 !.gitignore
 !.vimrc
+!.config/
+!.config/*
+!.config/*/*
+!.config/*/*/*
+!.config/*/*/*/*
+!.congig/*/*/*/*/*
